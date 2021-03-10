@@ -1,0 +1,16 @@
+{
+  "name": "pom_testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./test/HomepageTest.js --reporter html:report.html"
+  },
+  "author": "Neelesh",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "testcafe": "^1.10.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
